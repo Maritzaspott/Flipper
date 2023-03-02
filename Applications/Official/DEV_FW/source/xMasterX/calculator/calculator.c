@@ -16,7 +16,10 @@ const short MAX_TEXT_LENGTH = 20;
 typedef struct {
     short x;
     short y;
+    short z;
 } selectedPosition;
+
+/* new note */
 
 typedef struct {
     selectedPosition position;
